@@ -1,11 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="cupcake">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.7/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Fruit House</title>
 </head>
+
 <body>
-    
+    <header>
+        <nav class=" p-4">
+            <div class="nav container mx-auto flex justify-between items-center">
+                <!-- Menu (Visible on Large Screens) -->
+                <div class="hidden md:flex space-x-4">
+                    <a href="#" class="text-white">Home</a>
+                    <a href="#" class="text-white">About</a>
+                    <a href="#" class="text-white">Services</a>
+
+                </div>
+                <!-- Website Name  -->
+                <div class="text-white text-lg font-semibold">
+                    <a href="#">Fruit Burst</a>
+                </div>
+                <!-- Search Bar and Button  -->
+                <div class="hidden md:flex space-x-4 items-center">
+                    <input type="text" placeholder="Search"
+                        class="bg-white text-gray-800 px-3 py-1 rounded-full focus:outline-none">
+                </div>
+
+                <!-- Menu Button (Visible on Tablet and Mobile) -->
+                <button id="menu-toggle" class="btn btn-square btn-ghost md:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        class="inline-block w-5 h-5 stroke-current">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+
+
+
+    </header>
+
+
+
+
+    <!-- script files -->
+    <script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const linkPart = document.querySelector(".hidden.md\\:flex");
+
+        menuToggle.addEventListener("click", () => {
+            linkPart.classList.toggle("hidden");
+        });
+    </script>
+
 </body>
+
 </html>
