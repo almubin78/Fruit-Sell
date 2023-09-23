@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.7/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Skranji:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Fruit House</title>
 </head>
 
 <body>
-    <header>
-        <nav class=" p-4">
+    <header class="navbar ">
+        <nav class="navbar">
+            <!-- problem:but if i will dont use single navbar class the it dont work properly -->
             <div class="nav container mx-auto flex justify-between items-center">
                 <!-- Menu (Visible on Large Screens) -->
                 <div class="hidden md:flex space-x-4">
@@ -45,7 +49,16 @@
 
 
     </header>
-
+    <main>
+        <div class="bannerContainer p-">
+            <div class="content flex  items-center justify-center flex-col  h-full">
+                <h3 class="text-[60px] ">Exotic tastes at your </h3>
+                <h3 class="text-[60px]">doorstep</h3>
+                <p>We supply highly quality organic products</p>
+                <button>Shop Now</button>
+            </div>
+        </div>
+    </main>
 
 
 

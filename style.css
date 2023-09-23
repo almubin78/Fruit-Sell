@@ -1,7 +1,46 @@
-.nav{
+body {}
+
+.navbarContainer {
+    /* position:relative; */
+    border: 2px dotted #228521;
+}
+
+.navbar {
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.nav {
     border: 1px solid #F85559;
     background-color: #F85559;
-    color:white;
-    padding:0 10px;
+    color: white;
+    padding: 5px 10px;
     border-radius: 8px;
 }
+
+/* Banner Container */
+.bannerContainer {
+    background-image: url(./images/banner4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    block-size: cover;
+    color: #FFFFFF;
+    font-family: 'Skranji', cursive;
+    position: relative; /* Required for pseudo-element */
+}
+
+.bannerContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2); 
+    opacity: 0.5;
+    z-index: -1; 
+}
+
