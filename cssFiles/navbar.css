@@ -1,0 +1,19 @@
+.navbarContainer {
+    /* position:relative; */
+    border: 2px dotted #228521;
+}
+
+.navbar {
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.nav {
+    border: 1px solid #F85559;
+    background-color: #F85559;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+}

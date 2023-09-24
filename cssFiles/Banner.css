@@ -1,0 +1,21 @@
+
+/* Banner Container */
+.bannerContainer {
+    position: relative;
+    background:url(../images/banner4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width:100%;
+    block-size: cover;
+    color: #FFFFFF;
+    font-family: 'Skranji', cursive;
+}
+.content{
+    position: absolute;
+    left: 30%;
+    top:-20%;
+}
+.bannar-show{
+    display: flex;
+}

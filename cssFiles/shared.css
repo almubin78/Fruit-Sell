@@ -1,0 +1,15 @@
+body{
+    margin:0px 50px;
+}
+.primaryButton{
+    border:none; 
+    outline: none; 
+    background-color: #F85559;
+    padding:10px 15px;
+    border-radius:10px;
+    transition:0.3s;
+}
+.primaryButton:hover{
+    background-color: #f33034;
+    color:bisque;
+}
