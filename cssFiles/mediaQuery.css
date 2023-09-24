@@ -1,0 +1,10 @@
+@media only screen and (max-width: 600px) {
+    .banner-show{
+        display: none;
+    }
+    .content{
+        font-size: 30px;
+        font-weight: 400;
+        position: relative;
+    }
+}

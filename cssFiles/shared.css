@@ -8,6 +8,7 @@ body{
     padding:10px 15px;
     border-radius:10px;
     transition:0.3s;
+    color:aliceblue;
 }
 .primaryButton:hover{
     background-color: #f33034;

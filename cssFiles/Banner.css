@@ -13,9 +13,27 @@
 }
 .content{
     position: absolute;
+    color:green;
     left: 30%;
     top:-20%;
 }
-.bannar-show{
+.content h3{
+    font-size: 60px;
+}
+.banner-show{
+    position: absolute;
+    background-color: #FFFFFF;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    bottom:-25px;
+    left:15%;
+    margin:0 auto;
+    width:70%;
+    text-align: center;
+    color: black;
+    padding:10px 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.3);
+
 }
