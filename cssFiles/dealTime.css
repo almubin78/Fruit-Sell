@@ -1,0 +1,21 @@
+.dealContainer{
+    margin-top: 70px;
+    padding:5px 5px
+}
+.dealTime h3{
+    font-size: 40px;
+    margin-left: 5px;
+}
+.dot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 800;
+}
+.border{
+    max-height: 100px;
+    padding: 2px;
+    margin-right: 1px;
+    border-radius: 1px;
+}

@@ -7,7 +7,7 @@
     }
     .content{
         color: turquoise;
-        top:10%;
+        /* top:0; */
         left:15%;
     }
     .content h3{
