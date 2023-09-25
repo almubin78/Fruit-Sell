@@ -2,9 +2,15 @@
     .banner-show{
         display: none;
     }
+    .bannerContainer {
+        position: static;
+    }
     .content{
-        font-size: 30px;
-        font-weight: 400;
-        position: relative;
+        color: turquoise;
+        top:10%;
+        left:15%;
+    }
+    .content h3{
+        font-size: 40px;
     }
 }
