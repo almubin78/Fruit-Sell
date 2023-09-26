@@ -1,16 +1,35 @@
 @media only screen and (max-width: 600px) {
-    .banner-show{
+    .banner-show {
         display: none;
     }
+
     .bannerContainer {
         position: static;
     }
-    .content{
+
+    .content {
         color: turquoise;
         /* top:0; */
-        left:15%;
+        left: 15%;
     }
-    .content h3{
+
+    .content h3 {
         font-size: 40px;
+    }
+
+    /* deal Container */
+    .dealTimeContainer{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .dealContent {
+        font-size: 14px;
+        overflow-x: scroll;
+        white-space: nowrap;
+        /* text-overflow: ellipsis; */
+        margin-bottom: 30px;
+        
+       
     }
 }
