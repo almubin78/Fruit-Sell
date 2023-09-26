@@ -24,7 +24,8 @@
 .item1,.item2,.item3,.item4{
     padding:25px;
     min-width:400px;
-    box-shadow: 5px 1px 10px rgba(155, 19, 19, 0.3);
+    /* box-shadow: 5px 1px 10px rgba(155, 19, 19, 0.3); */
+    margin-top:20px;
     display: flex;
     flex-direction: column;
     line-height: 40px;;
@@ -38,6 +39,10 @@
     padding:2px 15px;
     border-radius: 5px;
     border-bottom:5px solid gray;
+}
+.item1 button{
+    background-color: rgb(236, 108, 108);
+    color: wheat;
 }
 .item1 img,.item2 img,.item3 img,.item4 img{
     margin:0 auto;
