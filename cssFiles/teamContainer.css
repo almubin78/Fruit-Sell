@@ -1,0 +1,66 @@
+
+.teamContainer {
+    background-image: url('../images/banner1.png');
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    block-size: cover;
+    color: white;
+    position: relative; /*position for pseudo-elements */
+    margin: 0 auto;
+}
+
+/*pseudo-element for the black overlay */
+.teamContainer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    z-index: 1; /* Ensure it's above the background image */
+}
+/* Styles for the teamContent section */
+/* Styles for the teamContent section */
+.teamContent {
+    background-color: rgba(0, 0, 0, 0.7); 
+    /* black background with transparency */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+    z-index: 2; /* Ensure black overlay */
+}
+
+.teamContent h1 {
+    font-size: 32px;
+}
+
+.teamContent p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 0; 
+}
+
+
+/* Styles for the teamExpert section */
+.teamExpert {
+    /* background-color: rgba(0, 0, 0, 0.7);  */
+    /* Add a black background with transparency */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+    z-index: 2; /* Ensure the black overlay */
+}
+.social-expert {
+    width:100%;
+}
+.social-expert i{
+    background-color: #F85559;
+    color:white;
+    padding: 7px;
+    border-radius: 5px;
+    margin:2px
+}

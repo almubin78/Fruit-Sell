@@ -18,21 +18,41 @@
     }
 
     /* deal Container */
-    .dealTimeContainer{
+    .dealTimeContainer {
         display: flex;
         flex-direction: column;
-        
+
     }
+
     .dealContent {
         font-size: 14px;
         overflow-x: scroll;
         white-space: nowrap;
         /* text-overflow: ellipsis; */
         margin-bottom: 30px;
-        
-       
+
+
     }
-    .dealTimeContainer{
-        padding:0 50px;
+
+    .dealTimeContainer {
+        padding: 0 50px;
+    }
+
+    .expertSection {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+
+        background-image: url('../images/banner1.png');
+        height: 200vh;
+        color: white;
+        margin: 0 auto;
+    }
+
+    .teamContent {
+        margin: 20px;
+        text-align: center;
     }
 }
