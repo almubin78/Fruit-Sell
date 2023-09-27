@@ -39,20 +39,14 @@
     }
 
     .expertSection {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-
-
-        background-image: url('../images/banner1.png');
-        height: 200vh;
-        color: white;
-        margin: 0 auto;
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     .teamContent {
         margin: 20px;
         text-align: center;
     }
+    
 }

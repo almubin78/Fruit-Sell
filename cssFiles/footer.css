@@ -1,0 +1,52 @@
+footer {
+    text-align: center;
+    color: white;
+    font-family: Lato;
+    margin-top: 50px;
+    padding:50px 15px;
+}
+.footerHeader{
+    background: #333;
+    width:50%;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Skranji', cursive;
+    border-radius: 10px;
+}
+.linksContainer {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: 0.6 ease-in;
+}
+
+.footerLink {
+    margin: 15px;
+    cursor: pointer;
+    
+}
+.footerLink:hover {
+    padding:1px 5px;
+    cursor: pointer;
+    background-color: #333;
+}
+.footerSocial{
+    margin-top: 20px;
+    align-items: center;
+}
+.footerSocial i {
+    width: 40px;
+    height: 32.50px;
+    /* background: white; */
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.footerSocial i:hover {
+    background-color: #333;
+    
+}
